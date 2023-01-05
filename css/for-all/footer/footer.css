@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+	font-size: 10px;
+	scroll-behavior: smooth;
+	width: 100%;
+	height: 100%;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 0;
+}
+footer .container-fluid{
+    margin: 0;
+    padding: 0;  
+/* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #040A22, #0c253d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #040A22, #0c253d);
+    padding-left:7%;
+    padding-right:7%;
+}
+.footer-section-gap{
+    padding: 3%;
+}
+
+.helyptic-details .footer-logo a{
+    font-family: 'Play', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    text-transform: capitalize;
+    
+}
+.helyptic-details .helyptic-details-para{
+    margin-top: 10px;
+}
+.helyptic-details .helyptic-details-para p{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: white;
+}
+.helyptic-contact-details{
+    margin-top: 30px;
+}
+.helyptic-contact-details ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+.helyptic-contact-details ul li{
+    list-style: none;
+    display: flex;
+}
+.helyptic-contact-details ul li img{
+    position: absolute;
+}
+.helyptic-contact-details ul li p{
+    font-family: 'Noto Sans', sans-serif;
+    list-style: none;
+    display: inline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    padding-left: 40px;
+    margin-top: 3px;
+}
+.follow-helyptic{
+    margin-top: 20px;
+}
+.follow-helyptic span{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+}
+.follow-helyptic span a{
+    text-decoration: none;
+    
+    
+}
+.follow-helyptic span a svg{
+    width: 23px;
+}
+
+.helyptic-services-footer .footer-services-heading{
+    margin-bottom: 20px;
+}
+
+.helyptic-services-footer .footer-services-heading p{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    padding-left: 6px;
+}
+.bottom{
+    width: 50px;
+    height: 3px;
+    background: #009DFE;
+    margin-left: 6px;
+    transform: skew(-45deg);
+}
+
+.helyptic-services-footer .services-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+.helyptic-services-footer .services-list ul li{
+    padding: 5px;
+}
+.helyptic-services-footer .services-list ul li a{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .copyright{
+    margin: 0;
+    padding:25px;
+    background: -webkit-linear-gradient(45deg, #040A22, #0c253d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #050b25, #0c253d);
+}
+footer .copyright p{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+ 
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+footer .copyright p a{
+    color: #009DFE;
+}
+
+@media screen and (max-width:1366px) {
+
+    footer .container-fluid{
+        padding-left:6%;
+        padding-right:6%;
+    }
+    .helyptic-details .helyptic-details-para p{
+        font-size: 16px;
+    }
+    .helyptic-contact-details ul li p{
+        font-size: 16px;
+
+    }
+    .follow-helyptic span{
+        font-size: 16px;
+    }
+
+    .helyptic-services-footer .services-list ul li a{
+        font-size: 16px;
+    }
+    footer .copyright p{
+        font-size: 16px;
+    }
+    
+}

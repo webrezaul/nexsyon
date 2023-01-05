@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+.nexsyon-terms-and-conditons{
+    margin: 0;
+    padding: 0;
+}
+.nexsyon-terms-and-conditons .container-fluid{
+    margin: 0;
+    padding: 0;
+    padding-left: 15%;
+    text-align: center;
+    padding-right: 15%;
+}
+.nexsyon-terms-and-conditons .heading h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 111.18%;
+
+   
+}
+
+
+.nexsyon-terms-and-conditons .heading p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    padding-top: 1%;
+}
+
+.terms-gap{
+    padding: 2%;
+}
+.before-terms-gap{
+    padding: 5%;
+}
+
+.after-terms-gap{
+    padding: 1%;
+}
+
+.nexsyon-terms-and-conditons .terms{
+    text-align: justify;
+}
+
+.nexsyon-terms-and-conditons .terms p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    padding-bottom: 1%;
+}
+
+.nexsyon-terms-and-conditons .terms h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1366px) {
+    .nexsyon-terms-and-conditons .heading h1{
+        font-size: 37px;
+    }
+    .nexsyon-terms-and-conditons .heading p{
+        font-size: 20px;
+    }
+    .nexsyon-terms-and-conditons .terms p{
+        font-size: 15px;
+    }
+    .nexsyon-terms-and-conditons .terms h3{
+        font-size: 20px;
+    }
+}
+
+
+
+

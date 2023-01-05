@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+	font-size: 10px;
+	scroll-behavior: smooth;
+	width: 100%;
+	height: 100%;
+}
+
+.container-fluid{
+    overflow: hidden;
+}
+
+/*------------------------------- AFTER WHY NEXSYON  ------------------------------*/
+
+.after-why-nexsyon{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.after-why-nexsyon .container-fluid{
+    margin: 0;
+    padding: 0;
+    padding:7%;
+    background: -webkit-linear-gradient(45deg, #040A22, #0c253d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #040A22, #0c253d);
+}
+.why-nexsyon-points{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.why-nexsyon-points .why-nexsyon-points-icon{
+    padding: 16%;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(-45deg, #07203d, #0c253d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(-45deg, #07203d, #0c253d);
+    box-shadow: 0px 5px 20px 0px #072444;
+    width:fit-content;
+    box-shadow: 0px -4px 10px 2px #1b3a66c2;
+    margin: 0 auto;
+}
+.why-nexsyon-points .why-nexsyon-points-icon img{
+    
+ width: 40px;
+height: 40px;
+
+}
+.why-nexsyon-points-disc{
+    padding-top: 15%;
+}
+.why-nexsyon-points-disc p{
+    font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+	color: white;
+}
+
+@media screen and (max-width:1366px) {
+    .why-nexsyon-points-disc p{
+        font-size: 15px;;
+    }
+    .why-nexsyon-points .why-nexsyon-points-icon img{
+    
+        width: 30px;
+       height: 30px;
+       
+       }
+}

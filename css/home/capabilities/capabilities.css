@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+	font-size: 10px;
+	scroll-behavior: smooth;
+	width: 100%;
+	height: 100%;
+}
+
+.container-fluid{
+	overflow: hidden;
+	
+}
+
+/*------------------------------- CAPABILITY OVERVIEW  ------------------------------*/
+
+.nexsyon-capability-overview{
+	margin: 0;
+	padding:0;
+}
+.nexsyon-capability-overview .container-fluid{
+	margin: 0;
+	padding:7%;
+	height: fit-content;
+	background: #f8fbff;
+	
+}
+.nexsyon-capability-overview-heading p{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+	text-align: center;
+	font-size: 44px;
+}
+.each-capability{
+	padding-left: 3%;
+}
+.nexsyon-capability{
+	padding: 3%;
+	background: white;
+	box-shadow: 0px 20px 40px 0px #011d460c;
+	box-shadow: 0px -20px 40px 0px #06080a0a;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	text-decoration: none;
+}
+.nexsyon-capability .img-block{
+	justify-content: center;
+	margin-left: -50px;	
+}
+.nexsyon-capability .img-block img{
+	width: 230px;
+}
+.nexsyon-capability .text-block{
+	justify-content: center;
+}
+.nexsyon-capability .nexsyon-capability-heading{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 27px;
+	text-transform: capitalize;
+	padding: 2%;
+	padding-bottom: 0%;
+	padding-left: 5%;
+	color: #333333;
+	text-decoration: none;
+}
+
+.nexsyon-capability .nexsyon-capability-heading::before{
+	display: inline-block;
+    content: "";
+    border: 3px solid #0C71A9;
+    width: 15px;
+	margin: 5px;
+	margin-right: 10px;
+	text-decoration: none;
+	transition: .2s;
+}
+.nexsyon-capability:hover .nexsyon-capability-heading::before{
+    width: 20px;
+	transition: .2s;
+}
+.nexsyon-capability .nexsyon-capability-para{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	text-align: justify;
+	text-transform: capitalize;
+	padding: 3%;
+	padding-left: 5%;
+	padding-bottom: 0%;
+	color: #333333;
+	
+
+}
+.nexsyon-capability .nexsyon-capability-para i{
+	font-size: 18px;
+	transition: .3s;
+}
+.nexsyon-capability:hover .nexsyon-capability-para i{
+	color: #0C71A9;
+	transition: .3s;
+}
+.nexsyon-capability .nexsyon-capability-heading span{
+	color: #0C71A9;
+}
+.first-col-margin{
+	padding-top: 5%;
+}
+
+@media screen and (max-width:1500px) {
+	.nexsyon-capability .img-block{
+		padding-top: 10px;
+	}
+	.nexsyon-capability .img-block img{
+		width: 188px;
+	}
+}
+
+@media screen and (max-width:1366px) {
+	.nexsyon-capability-overview .container-fluid{
+		padding: 6%;
+	
+	}
+	.nexsyon-capability .img-block{
+		padding-top: 10px;
+	}
+	.nexsyon-capability .img-block img{
+		width: 158px;
+	}
+	.nexsyon-capability-overview-heading p{
+		font-size: 35px;
+	}
+	.nexsyon-capability .nexsyon-capability-heading{
+		font-size: 22px;
+	}
+	.nexsyon-capability .nexsyon-capability-para{
+		font-size: 15px;
+	}
+
+}
+
+.each-capability{
+	margin-top: 4%;
+}
+
+
+@media screen and (max-width:1024px) {
+	.nexsyon-capability-overview .container-fluid{
+		padding: 6%;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+	.nexsyon-capability-overview-heading{
+		margin-bottom: 5%;
+	}
+	.nexsyon-capability-overview .col-xl-6{
+		margin-top: 7%;
+	}
+	.nexsyon-capability .img-block img{
+		width: 178px;
+	}
+	.first-col-margin{
+		padding-top: 0%;
+	}
+	.nexsyon-capability .nexsyon-capability-para{
+		font-size: 17px;
+	}
+	#tab-none{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width:500px) {
+	.nexsyon-capability-overview .container-fluid{
+		padding:0%;
+		background: transparent;
+		box-shadow: 0 30px 30px -30px rgb(223, 223, 223);
+		position: relative;
+	}
+	.nexsyon-capability-overview .col-xl-6{
+		margin-top: 1%;
+		padding-bottom: 1.8%;
+		position: relative;
+	}
+	.nexsyon-capability{
+		display: block;
+	}
+	.nexsyon-capability .img-block{
+		margin-left: 0px;	
+		display: table;
+		margin: 0 auto;
+	}
+	.nexsyon-capability .img-block img{
+		width: 180px;
+		margin-bottom: 20px;
+		margin-top: -40%;
+	}
+	.nexsyon-capability .nexsyon-capability-heading::before{
+		display: none;
+	}
+	.nexsyon-capability .text-block{
+		justify-content: center;
+	}
+	.nexsyon-capability .nexsyon-capability-heading{
+		font-size: 26px;
+		text-align: center;
+	}
+	.nexsyon-capability{
+		box-shadow: 0 -30px 30px -30px rgb(223, 223, 223);
+	}
+	.nexsyon-capability-overview-heading{
+		padding: 15%;
+	}
+	.each-capability{
+		margin: 0;
+		padding: 0;
+	}
+	.nexsyon-capability .nexsyon-capability-para{
+		padding-left: 6%;
+		padding-right: 6%;
+	}
+
+}

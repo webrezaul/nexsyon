@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+  /*font-family: 'Montserrat', sans-serif;*/
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+	font-size: 10px;
+	scroll-behavior: smooth;
+	width: 100%;
+	height: 100%;
+}
+
+.container-fluid{
+  overflow: hidden;
+}
+
+.nav {
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	line-height: 65px;
+	text-align: center;
+	z-index: 99;
+	padding: 0px;
+    padding-top: 3px;
+	padding-bottom: 68px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.6s ease;
+    top: 0px;
+	padding-right: 3.9%;
+	padding-left: 3.5%;
+    background: -webkit-linear-gradient(45deg, #040A22, #0c253d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #040A22, #0c253d);
+    box-shadow: 0 6px 2px -2px rgba(236, 236, 236, 0.027);
+}
+
+.nexsyon-hero-banner {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background: -webkit-linear-gradient(45deg, #040A22, #0c253d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #040A22, #0c253d);
+    overflow: hidden;
+    z-index: 9;
+}
+
+.nexsyon-hero-banner-split-window{
+    position: absolute;
+    width: 50%; 
+    height: 100%; 
+    background:white;
+}
+
+.hero-banner-text {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    left: 0;
+    padding: 0 50px;
+    padding-left: 7%;
+    z-index: 10;
+}
+
+.banner-heading {
+    color: #0C3C69;
+    font-size: 3.16vw;
+    margin-bottom: 8%;
+  }
+  .banner-paragraph {
+    color: #333333;
+    font-size: 16px;
+    width: 63%;
+    text-align: justify;
+  }
+  .banner-paragraph.autosar {
+    color: #333333;
+    font-size: 16px;
+    width: 74%;
+    text-align: justify;
+  }
+  .banner-paragraph.autosar.the-software-development {
+    color: #333333;
+    font-size: 16px;
+    width: 83%;
+    text-align: justify;
+  }
+
+
+.nexsyon-contact-icons span::before{
+    border: 1px solid #333333;
+  }
+  .nexsyon-contact-icons span{
+    color: #333333;
+  }
+
+  .nexsyon-contact-icons span svg{
+    fill: #333333;
+  }
+
+.the-direction{
+    position: absolute;
+    top: 115px;
+    left: 4%;
+    z-index: 99;
+}
+.the-direction span{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #333333;
+}
+.the-direction span a{
+    color: #0C71A9;
+}
+
+@media screen and (max-width:1366px) {
+    .the-direction{
+        top: 115px;
+    }
+    .the-direction span{
+        font-size: 16px;
+    }
+    .banner-paragraph {
+        font-size: 15px;
+      }
+      .banner-paragraph.autosar {
+        font-size: 15px;
+      }
+      .banner-paragraph.autosar.the-software-development {
+        font-size: 15px;
+      }
+}
+
+.nexsyon-hero-banner .row{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: red;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nexsyon-hero-banner .row{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.nexsyon-hero-banner .row .col-xl-5 {
+    padding: 0%;
+    left: 8%;
+ }
+.nexsyon-hero-banner .row .col-xl-7 {
+    padding: 7.4%;
+    right: 4%;
+}
+
+.nexsyon-hero-banner.the-autosar .row .col-xl-5{
+    left: 6.5%;
+}
+.nexsyon-hero-banner.the-software-development .row .col-xl-5{
+    left: 5%;
+}
+
+.nexsyon-contact-icons span{
+    z-index: 9999999999999999999999999;
+  }
+
+  .nexsyon-contact-icons span svg{
+    margin-left: 20px;
+    fill: #333333;
+    transition: .5s;
+ }
+
+ .nexsyon-contact-icons span svg:hover{
+   transition: .5s;
+   fill: #009DFE;
+}
+
+
+.nexsyon-contact-icons .nexsyon-social-icons svg{
+    margin-left: 20px;
+    fill: white;
+    transition: .5s;
+ }
+
+ .nexsyon-contact-icons .nexsyon-social-icons svg:hover{
+   transition: .5s;
+   fill: #009DFE;
+}
+
+
+@media screen and (max-width:1366px) {
+    .banner-heading {
+        margin-bottom: 5%;
+    }
+    .nexsyon-hero-banner .row .col-xl-5 {
+        padding: 0%;
+        left: 9%;
+     }
+    .nexsyon-hero-banner .row .col-xl-7 {
+        padding: 7%;
+        right: 4%;
+    }
+    .nexsyon-hero-banner.the-autosar .row .col-xl-5{
+        left: 6.2%;
+    }
+    .nexsyon-hero-banner.the-software-development .row .col-xl-5{
+        left: 4.8%;
+    }
+    .banner-content{
+        padding-top: 3%;
+    }
+}
+
+
+.banner-content .banner-autosar{
+    margin-top: 9%;
+}
+.banner-content .banner-autosar-tools{
+    margin-top: 11%;
+}
+.banner-content .banner-safety{
+    margin-top: 8%;
+}
+.banner-software-development{
+    margin-top: 10.5%;
+}
+
+@media screen and (max-width:1366px) {
+.banner-paragraph.autosar br{
+    display: none;
+}
+}
+
+@media screen and (max-width:1024px) {
+    .nexsyon-hero-banner {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        background: white;
+        overflow: hidden;
+        z-index: 9;
+      }
+    .nexsyon-hero-banner-split-window{
+        position: absolute;
+        width: 100%; 
+        height: 40%; 
+        bottom: 0;
+        background: -webkit-linear-gradient(45deg, #040A22, #0c253d);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(45deg, #040A22, #0c253d);
+    }
+    .nexsyon-contact-icons.the-separate{
+        display: none;
+    }
+    .banner-content{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .banner-paragraph {
+        width: 100%;
+    }
+    .nexsyon-hero-banner .row .col-xl-7 {
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        right: 0;
+        background-image: #333;
+        text-align: center;
+        position: relative;
+        height: 50%;
+    }
+    .nexsyon-hero-banner .row .col-xl-7 img{
+        width: 80%;
+        margin-top: -10%;
+    }
+    .nexsyon-hero-banner .row .col-xl-5 {
+        padding: 0%;
+        margin: 0%;
+        left: 0%;
+        height: 50%;
+        width: 100%;
+        vertical-align: middle;
+    }
+
+
+  
+}
+
+@media screen and (max-width:1024px) {
+    .nav {
+        height: 95px;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav {
+        height: 95px;
+    }
+    /* TAB AUTOSAR */
+    .banner-content.tab-autosar{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-58%,-33%);
+        width: 78%;
+    }
+    /* TAB SAFETY */
+    .banner-content.tab-safety{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-27%);
+        width: 53%;
+    }
+    /* REDLINE PROJECT */
+    .banner-content.tab-redline-project{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-27%);
+        width: 53%;
+    }
+    /* SOFTWARE DEVEOPMENT*/
+    .banner-content.tab-software-development{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-47%,-37%);
+        width: 86%;
+    }
+    /* SOFTWARE TESTING*/
+    .banner-content.tab-software-testing{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-27%);
+        width: 53%;
+    }
+    /* AUTOSAR TOOLS */
+    .tab-autosar-tools{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        transform: translate(-50%,88%);
+        width: 100%;
+    }
+    .banner-paragraph.autosar {
+        width: 100%;
+      }
+      .banner-paragraph.autosar {
+        width: 100%;
+      }
+      .banner-content .banner-autosar-tools{
+        margin-top: -8%;
+        margin-left: -30%;
+    }
+    
+
+    /* FOR ALL */
+    .banner-content{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-13%);
+        width: 53%;
+    }
+    .banner-heading {
+        color: #0C3C69;
+        font-size: 3.96vw;
+        margin-bottom: 6%;
+      }
+      .the-direction{
+        top: 125px;
+    }
+    .nexsyon-hero-banner .row .col-xl-7 img{
+        width: 80%;
+        margin-top: -7%;
+    }
+    .nav {
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+ 
+}
+
+
+@media screen and (max-width:500px) {
+
+    /* FOR ALL */
+    .nexsyon-hero-banner.for-all {
+        z-index: 9;
+        height: 745px;
+    }
+    .nexsyon-hero-banner-split-window{
+        height: 250px; 
+    }
+    .nexsyon-hero-banner .row .col-xl-7{
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+     /* FOR ALL */
+    .nexsyon-hero-banner .row .col-xl-7 img{
+        width: 100%;
+        margin-top: 5%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+    #remove-it-on-mob{
+        display: none;
+    }
+    .banner-content{
+        margin: 0;
+        padding: 0;
+    }
+    .the-direction span{
+        font-size: 16px;
+    }
+
+    /* FOR ALL */
+    .banner-content{
+        top: 0%;
+        left: 0%;
+        transform: translate(-0%,-0%);
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 190px;
+    }
+    .banner-heading {
+        color: #0C3C69;
+        font-size: 30px;
+        margin-bottom: 8%;
+        text-align: center;
+    }  
+
+    /* AUTOSAR */
+    .nexsyon-hero-banner.the-autosar{
+        height: 940px;
+    }
+    .nexsyon-hero-banner.the-autosar .row .col-xl-5{
+        left: 0%;
+        width: 100%;
+    }
+    .banner-paragraph.autosar {
+        width: 100%;
+    }
+    .banner-content .banner-autosar{
+        margin: 0;
+        padding: 0;
+    }
+    .banner-content.tab-autosar{
+        top: 0%;
+        left: 0%;
+        transform: translate(-0%,-0%);
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 190px;
+    }
+    .banner-paragraph.autosar br{
+        display: block;
+    }
+
+
+    /* EMBEDDED SOFTWARE */
+    .nexsyon-hero-banner.the-embedded-software{
+        height: 720px;
+    }
+
+    /* THE EMBEDDED LINUX */
+    .nexsyon-hero-banner.the-embedded-linux{
+        height: 720px;
+    }
+
+
+    /* SAFETY */
+    .nexsyon-hero-banner.the-safety{
+        height: 815px;
+    }
+    .banner-content.tab-safety{
+        margin-top: 170px;
+        padding-left: 20px;
+        padding-right: 20px;
+        top: 0%;
+        left: 0%;
+        transform: translate(-0%,-0%);
+        width: 100%;
+    }
+
+    /* SECURITY */
+    .nexsyon-hero-banner.the-security{
+        height: 700px;
+    }
+
+    /* REDLINE PROJECT */
+    .nexsyon-hero-banner.the-redline-project{
+        height: 855px;
+    }
+    .banner-content.tab-redline-project{
+        margin-top: 170px;
+        padding-left: 5px;
+        padding-right: 5px;
+        top: 0%;
+        left: 0%;
+        transform: translate(-0%,-0%);
+        width: 100%;
+    }
+
+    /* SOFTWARE DEVEOPMENT*/
+    .nexsyon-hero-banner.the-software-development {
+        height: 975px;
+    }
+    .banner-paragraph.autosar.the-software-development {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .nexsyon-hero-banner.the-software-development .row .col-xl-5{
+        left: 0%;
+    }
+    .banner-content.tab-software-development{
+        margin: 0;
+        padding: 0;
+        margin-top: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+        top: 0%;
+        left: 0%;
+        transform: translate(-0%,-0%);
+        width: 100%;
+    }
+    .software-engineering-process.make-it-merge{
+        margin-bottom: -45px;
+    }
+
+    /* SOFTWARE TESTING*/
+    .nexsyon-hero-banner.the-software-testing{
+        height: 740px;
+    }
+    .banner-content.tab-software-testing{
+        margin: 0;
+        padding: 0;
+        margin-top: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+        top: 0%;
+        left: 0%;
+        transform: translate(-0%,-0%);
+        width: 100%;
+    }
+
+    /* AUTOSAR TOOLS */
+    .nexsyon-hero-banner.the-autosar.tools{
+        height: 900px;
+    }
+    .banner-content .banner-autosar-tools{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .tab-autosar-tools{
+        margin: 0;
+        padding: 0;
+        margin-top: 190px;
+        padding-left: 5px;
+        padding-right: 5px;
+        top: 0%;
+        left: 0%;
+        transform: translate(-0%,-0%);
+        width: 100%;
+    }
+
+    /* TEST AUTOMATION */
+    .nexsyon-hero-banner.the-test-automation{
+        height: 730px;
+    }
+
+}

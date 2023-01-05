@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+.software-engineering-process-details{
+    z-index: 9;
+}
+.software-engineering-process-gap-bottom.other-sections{
+    padding: 5%;
+}   
+.software-engineering-process-gap-top.other-sections{
+    padding: 9%;
+}   
+
+.the-detail-section h3 {
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 150%;
+	text-align: left;
+	color: #0C71A9;
+	padding-bottom: 5px;
+	margin: 0;
+	padding: 5%;
+	padding-left: 17%;
+	padding-right: 17%;
+	padding-top: 0%;
+	text-transform: capitalize;
+}
+.the-detail-section p {
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	text-align: left;
+	padding: 5%;
+	padding-left: 17%;
+	padding-right: 19%;
+	padding-top: 0%;
+}
+
+.the-detail-section ul {
+	list-style: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	padding: 5%;
+	padding-left: 17%;
+	padding-right: 17%;
+	padding-top: 0%;
+}
+.the-detail-section ul>li {
+	font-family: 'Noto Sans', sans-serif;
+	clear: left;
+	padding: .5rem 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px; 
+	padding-left: 30px;
+}
+.the-detail-section ul>li:before {
+	content: "";
+	height: 11px;
+	width: 11px;
+	display: block;
+	float: left;
+	margin-top: 7px;
+}
+.the-detail-section ul>li:before {
+	content: "";
+	height: 11px;
+	width: 11px;
+	background: #0C71A9;
+	margin-left: -30px;
+	transition: .3s;
+}
+.the-detail-section ul>li:hover:before {
+	content: "";
+	height: 13px;
+	width: 13px;
+	background: #0C71A9;
+	margin-left: -30px;
+	transition: .3s;
+}
+@media screen and (max-width:1766px) {
+	.the-detail-section h3 {
+		font-size: 23px;
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+	.the-detail-section p {
+		font-size: 15px;
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+	.the-detail-section ul {
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+}
+@media screen and (max-width:1366px) {
+	.the-detail-section h3 {
+		font-size: 23px;
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+	.the-detail-section p {
+		font-size: 15px;
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+	.the-detail-section ul {
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+	.the-detail-section ul>li {
+		font-size: 15px;
+	}
+	.the-detail-section ul>li:before {
+		height: 11px;
+		width: 11px;
+	}
+	.software-engineering-process-gap-top.the-redline-project{
+		padding: 3%;
+	}
+}
+
+/* OTHER DETAIL SECTION */
+
+.other-details-points{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.other-details-points .container-fluid{
+    margin: 0;
+    padding: 0;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: -6%;
+}
+.other-details-points .container-fluid.down{
+    margin: 0;
+    padding: 0;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-bottom: -12%;
+}
+.other-details-points h3{
+    font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 150%;
+	text-align: left;
+	color: #0C71A9;
+	padding-bottom: 5px;
+	margin: 0;
+	padding: 4%;
+	padding-top: 0%;
+    padding-left: 0;
+}
+.other-details-points .other-points-here{
+    position: relative;
+    background: white;
+    padding: 7%;
+    padding-top: 5%;
+    z-index: 999999;
+}
+.other-details-points ul {
+	list-style: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+.other-details-points ul>li {
+	font-family: 'Noto Sans', sans-serif;
+	clear: left;
+	padding: .5rem 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+}
+.other-details-points ul>li:before {
+	content: "";
+	height: 11px;
+	width: 11px;
+	display: block;
+	float: left;
+	margin: 7px;
+}
+.other-details-points ul>li:before {
+	content: "";
+	height: 11px;
+	width: 11px;
+	background: #0C71A9;
+	margin-right: 18px;
+}
+@media screen and (max-width:1366px) {
+    .other-details-points h3{
+        font-size: 23px;
+    }
+    .other-details-points .container-fluid{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+	.software-engineering-process-gap-top.other-sections{
+		padding: 8%;
+	}   
+	.each-section-gap.container-fluid.embedded-linuxx{
+		padding: 6%;
+	}
+}
+
+/* SECURITY */
+.the-detail-section.security h3 {
+	padding-left: 0%;
+	padding-right: 0%;
+}
+.the-detail-section.security p {
+	padding-left: 0%;
+	padding-right: 0%;
+}
+.the-detail-section.security ul {
+	padding-left: 0%;
+	padding-right: 0%;
+}
+.the-detail-section.security.left-list{
+	margin-left: -11%;
+}
+.the-detail-section.security.left-list ul{
+	padding-right: 10%;
+}
+
+.d{
+	display: block;
+}
+.t{
+	display: none;
+}
+
+
+@media screen and (max-width:1366px) {
+	.the-detail-section.security.left-list{
+		margin-left: -0%;
+	}
+    .the-detail-section.security.left-list ul{
+		padding-right: 0%;
+	}
+}
+
+.the-detail-section.security.banner-paragraph{
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (max-width:1024px) {
+	.other-details-points{
+		background: #edf3f7a6;
+	}
+	.other-details-points .other-points-here{
+		background: transparent;
+	}
+	.other-details-points .container-fluid{
+		margin: 0;
+		padding: 0;
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-top: -0%;
+		padding-bottom: 5%;
+	}
+	.software-engineering-process-gap-bottom.other-sections{
+		padding: 0;
+	}
+	.d{
+		display: none;
+	}
+	.t{
+		display: block;
+		width: 100%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+}
+
+
+@media screen and (max-width:1024px) {
+	.software-engineering-process-gap-bottom.other-sections{
+		padding: 0%;
+	}   
+	.software-engineering-process-gap-top.other-sections{
+		padding: 0%;
+	}   
+	
+
+	.the-detail-section h3 {
+		margin: 0;
+		padding: 0;
+		padding-bottom: 4%;
+	}
+	.the-detail-section p {
+		margin: 0;
+		padding: 0;
+	}
+	.the-detail-section ul {
+		margin: 0;
+		padding: 0;
+	}
+	.other-details-points .container-fluid{
+		margin: 0;
+		padding: 0;
+	}
+	.other-details-points .other-points-here{
+		margin: 0;
+		padding: 0;
+	}
+	.the-detail-section{
+		padding-left: 24%;
+		padding-right: 24%;
+
+	}
+	.the-detail-section.for-the-services{
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	.the-detail-section .the-list{
+		padding-top: 0px;
+		padding-bottom: 60px;
+	}
+	.other-details-points .other-points-here {
+		padding-left: 24%;
+		padding-right: 24%;
+	}
+	.other-details-points .the-list{
+		padding-top: 0px;
+		padding-bottom: 60px;
+	}
+
+	.other-details-points.when-come-first .the-list{
+		padding-top: 0px;
+		padding-bottom: 30px;
+	}
+
+	.the-detail-section ul>li br{
+		display: none;
+	}
+	.other-detail-points ul>li br{
+		display: none;
+	}
+	.the-detail-section .list-para{
+		padding: 10%;
+		padding-top: 13%;
+		padding-right: 0px;
+		padding-bottom: 0px;
+	}
+	.other-details-points{
+		padding-bottom: 0%;
+	}
+	.for-tab{
+		padding-top: 0%;
+		padding-bottom: 0%;
+	}
+	
+	.image-about-nexsyon.for-service{
+		padding-bottom: 40px;
+	}
+
+	.each-section-gap.container-fluid.embedded-linuxx{
+		padding: 6%;
+	}
+
+	.other-details-points .container-fluid.down{
+		margin: 0;
+		padding: 0;
+	}
+	.software-engineering-process-gap-bottom{
+		margin: 0;
+		padding: 0;
+    }
+
+	.software-engineering-process-details{
+		padding-top: 4%;
+	}
+
+	.other-details-points.when-come-first{
+		padding-top: 10%;
+	}
+
+}
+
+@media screen and (max-width:500px){
+	.the-detail-section{
+		padding-left: 0%;
+		padding-right: 0%;
+
+	}
+	.the-detail-section .the-list{
+		padding-top: 0px;
+		padding-bottom: 10px;
+	}
+	.text-about-nexsyon{
+		padding-bottom: 30px;
+	}
+
+	.the-detail-section .the-list{
+		padding-top: 15px;
+		padding-bottom: 55px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.the-detail-section h3{
+		text-align: center;
+	}
+
+
+	.the-detail-section.security h3 {
+		padding-left: 0%;
+		padding-right: 0%;
+		text-align: center;
+	}
+
+	.other-details-points .other-points-here {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.other-details-points .other-points-here h3{
+		text-align: center;
+	}
+
+	.other-details-points.when-come-first{
+		margin-bottom: -40px;
+	}
+	
+}

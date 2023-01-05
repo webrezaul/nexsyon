@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.software-engineering-process{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.software-engineering-process-details{
+    margin: 0;
+    padding: 0;
+    background: #edf3f7a6;
+}
+.software-engineering-process-details.supporting-life-style{
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(45deg, #040A22, #0c253d);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #040A22, #0c253d);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+}
+.software-engineering-process-details .container-fluid{
+    margin: 0;
+    padding: 0;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.software-engineering-process-gap-top{
+    padding: 2%;
+}
+.software-engineering-process-gap-bottom{
+    padding: 2%;
+}
+.software-engineering-process .software-engineering-process-heading h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #466072;
+}
+.software-engineering-process .software-engineering-process-heading p{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #0C71A9;
+    margin-bottom: 2%;
+}
+.software-engineering-process-points{
+    display: flex;
+    align-items: center;
+}
+.software-engineering-process .detailes{
+    padding-left: 4%;
+}
+.software-engineering-process-points .software-engineering-process-points-icon{
+    padding: 6%;
+    border-radius: 50%;
+    background: #e8edee;
+    box-shadow: 0px -10px 30px #E1E9EE, 0px 5px 20px rgba(107, 142, 168, 0.4);
+    border-radius: 50%;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+}
+.software-engineering-process-points .software-engineering-process-points-icon.supporting-life-style-points-icon{
+    background: -webkit-linear-gradient(45deg, #040A22, #0c253d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #091f74, #0c253d);
+    box-shadow: 0px 5px 20px 0px #072444;
+    box-shadow: 0px -4px 10px 0px #1A355A;   
+    background: -webkit-linear-gradient(45deg, #06113a, #0c253d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #06113a, #0c253d); 
+}
+.software-engineering-process-points .software-engineering-process-points-icon img{
+    width: 40px;
+    height: 40px;
+}
+.software-engineering-process-points .software-engineering-process-points-discription{
+    padding: 4%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.software-engineering-process-points .software-engineering-process-points-discription h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: left;
+    color: #0C71A9;
+    padding-bottom: 5px;
+}
+.software-engineering-process-points .software-engineering-process-points-discription.supporting-life-style-points-discription h3{
+    color: #009DFE;
+}
+.software-engineering-process-points .software-engineering-process-points-discription p{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+}
+.software-engineering-process-points .software-engineering-process-points-discription.supporting-life-style-points-discription p{
+    color: white;
+}
+
+
+
+
+@media screen and (max-width:1366px) {
+    .software-engineering-process-gap-top{
+        padding: 2%;
+    }
+    .software-engineering-process-gap-bottom{
+        padding: 2%;
+    }
+    .software-engineering-process-details .container-fluid{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .software-engineering-process .software-engineering-process-heading h2{
+        font-size: 33px;
+    }
+    .software-engineering-process .software-engineering-process-heading p{
+        font-size: 18px;
+    }
+    .software-engineering-process .detailes{
+        padding-left: 2%;
+    }
+    .software-engineering-process-points .software-engineering-process-points-icon{
+        padding: 7%;
+    }
+    .software-engineering-process-points .software-engineering-process-points-discription{
+        padding: 2%;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .software-engineering-process-points .software-engineering-process-points-icon img{
+        width: 35px;
+        height: 35px;
+    }
+    .software-engineering-process-points .software-engineering-process-points-discription h3{
+        font-size: 23px;
+        padding-bottom: 5px;
+    }
+    .software-engineering-process-points .software-engineering-process-points-discription p{
+        font-size: 15px;
+        line-height: 150%;
+    }
+}
+
+
+.software-engineering-process-points .software-engineering-process-points-icon.the-capability-icon img{
+	width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width:1366px) {
+
+    .software-engineering-process-points .software-engineering-process-points-icon.the-capability-icon img{
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+
+.for-desktop{
+    display: block;
+}
+.for-tab{
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .software-engineering-process-gap-top{
+        padding: 3%;
+    }
+    .software-engineering-process-gap-bottom{
+        padding: 4%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .software-engineering-process-details .container-fluid{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .software-engineering-process-details .container-fluid .for-tab{
+        padding: 0;
+        margin: 0;
+    }
+    .software-engineering-process-points{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .for-desktop{
+        display: none;
+    }
+    .for-tab{
+        display: block;
+    }
+    .for-tab img{
+        width: 100%;
+    }
+
+    #supporting-life-style-img{
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .software-engineering-process .detailes{
+        margin: 0;
+        padding: 0px 20px;
+    }
+    .software-engineering-process{
+        margin-top: 10%;
+    }
+    .software-engineering-process .software-engineering-process-heading h2{
+        font-size: 25px;
+    }
+    .software-engineering-process .software-engineering-process-heading p{
+        font-size: 17px;
+    }
+    .software-engineering-process-points.the-automotive{
+        flex-flow: column;
+    }
+    .software-engineering-process-points.the-automotive.reverse-on-mob{
+        flex-flow: column-reverse;
+    }
+    .software-engineering-process-points.the-automotive .software-engineering-process-points-icon{
+        padding: 10%;
+        margin-top: 7%;
+    }
+    .software-engineering-process-points.the-automotive .software-engineering-process-points-icon img{
+        width: 35px;
+        height: 35px;
+    }
+    .software-engineering-process-points.the-automotive .software-engineering-process-points-discription{
+        padding: 2%;
+        margin-top: 7%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .software-engineering-process-points.the-automotive .software-engineering-process-points-discription h3{
+        text-align: center;
+    }
+}

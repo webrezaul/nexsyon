@@ -1,0 +1,39 @@
+.after-why-nexsyon.about-us .container-fluid{
+    background: #edf3f7a6;
+   
+
+}
+.after-why-nexsyon.about-us .why-nexsyon-points .why-nexsyon-points-icon{
+    padding: 8.5%;
+    border-radius: 50%;
+    background: #fafbfd;
+    box-shadow: 0px -10px 30px #e3f5ff, 0px 5px 20px rgba(181, 215, 241, 0.4);
+    width:fit-content;
+    margin: 0 auto;
+}
+.after-why-nexsyon.about-us .why-nexsyon-points .why-nexsyon-points-icon img{
+    
+    width: 40px;
+   height: 40px;
+   
+   }
+   .after-why-nexsyon.about-us   .why-nexsyon-points-disc p{
+	color: #333333;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+@media screen and (max-width:1366px) {
+
+    .after-why-nexsyon.about-us   .why-nexsyon-points-disc p{
+        font-size: 15px;
+    }
+
+    .after-why-nexsyon.about-us .why-nexsyon-points .why-nexsyon-points-icon img{
+    
+        width: 30px;
+       height: 30px;
+       
+       }
+}

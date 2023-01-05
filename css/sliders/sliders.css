@@ -1,0 +1,158 @@
+.slick-dots li button {
+    display: none;
+}
+.slick-dots{
+    position:absolute;
+    height:75px;
+    bottom:0px;
+    width:100%;
+    left:0px;
+    padding:0px;
+    margin:0px;
+    list-style-type:none;
+    text-align:center;
+}
+
+.slick-dots li{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background:Transparent;
+    -webkit-transition:all 0.5s;
+    transition:all 0.5s;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    border:2px solid #009DFE;
+    margin:0 4px;
+    cursor:pointer;
+    position:relative;
+}
+
+.slick-dots li.slick-active{
+    background:#009DFE;
+}
+
+
+
+.prev{
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    top: 28%;
+    transform: translate(-28%);
+    color: #009DFE;
+    left: 6%;
+    z-index: 9999;
+}
+.preev{
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    top: 40%;
+    transform: translate(-28%);
+    color: #009DFE;
+    left: 6%;
+    z-index: 9999;
+}
+.next{
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    right: 6%;
+    top: 28%;
+    transform: translate(-28%);
+    color: #009DFE;
+}
+.neext{
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    right: 6%;
+    top: 40%;
+    transform: translate(-28%);
+    color: #009DFE; 
+}
+.prev-three-point{
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    top: 20%;
+    transform: translate(-28%);
+    color: #009DFE;
+    left: 6%;
+    z-index: 9999;
+}
+.next-three-point{
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    right: 6%;
+    top: 20%;
+    transform: translate(-28%);
+    color: #009DFE;
+}
+
+
+
+    #remove-it-on-mob::before{
+        display: none;
+    }
+
+
+@media screen and (max-width:500px) {
+    .prev{
+        display: block;
+    }
+    .next{
+        display: block;
+    }
+    .preev{
+        display: block;
+    }
+    .neext{
+        display: block;
+    }
+    .prev-three-point{
+        display: block;
+    }
+    .next-three-point{
+        display: block;
+    }
+    .have-a-question .preev{
+        top: 33%;
+        transform: translate(-28%);
+        color: #009DFE;
+    }
+    .have-a-question .neext{
+        top: 33%;
+        transform: translate(-28%);
+        color: #009DFE;
+    }
+
+    .have-a-question.services .preev{
+        top: 38%;
+        transform: translate(-28%);
+        color: #009DFE;
+    }
+    .have-a-question.services .neext{
+        top: 38%;
+        transform: translate(-28%);
+        color: #009DFE;
+    }
+
+    #remove-it-on-mob{
+        display: none;
+    }
+
+
+}
+
+
+.nexsyon-capability-overview .slick-dots li{
+    border:2px solid #0C71A9;
+}
+.nexsyon-capability-overview .slick-dots li.slick-active{
+    background: #0C71A9;
+}
+
+

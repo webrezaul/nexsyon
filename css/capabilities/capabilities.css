@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+	font-size: 10px;
+	scroll-behavior: smooth;
+	width: 100%;
+	height: 100%;
+}
+
+.container-fluid{
+	overflow: hidden;
+	
+}
+
+/*------------------------------- CAPABILITY OVERVIEW  ------------------------------*/
+
+.nexsyon-capability-overview{
+	margin: 0;
+	padding:0;
+}
+.nexsyon-capability-overview .container-fluid{
+	margin: 0;
+	padding:7%;
+	height: fit-content;
+	background: #edf3f7a6;
+}
+.nexsyon-capability-overview-heading p{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+	text-align: center;
+	font-size: 44px;
+}
+.each-capability{
+	padding-left: 3%;
+}
+.nexsyon-capability{
+	padding: 3%;
+	background: white;
+	box-shadow: 0px 20px 40px 0px #011d460c;
+	box-shadow: 0px -20px 40px 0px #06080a0a;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	
+}
+.nexsyon-capability .img-block{
+	justify-content: center;
+	margin-left: -50px;	
+}
+.nexsyon-capability .img-block img{
+	width: 230px;
+}
+.nexsyon-capability .text-block{
+	justify-content: center;
+}
+.nexsyon-capability .nexsyon-capability-heading{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 27px;
+	text-transform: capitalize;
+	padding: 2%;
+	padding-bottom: 0%;
+	padding-left: 5%;
+}
+
+.nexsyon-capability .nexsyon-capability-heading::before{
+	display: inline-block;
+    content: "";
+    border: 3px solid #0C71A9;
+    width: 20px;
+	margin: 5px;
+	margin-right: 10px;
+}
+.nexsyon-capability .nexsyon-capability-para{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	text-align: justify;
+	text-transform: capitalize;
+	padding: 3%;
+	padding-left: 5%;
+	padding-bottom: 0%;
+}
+.nexsyon-capability .nexsyon-capability-para i{
+	font-size: 18px;
+}
+.nexsyon-capability .nexsyon-capability-heading span{
+	color: #0C71A9;
+}
+.first-col-margin{
+	padding-top: 5%;
+}
+
+@media screen and (max-width:1500px) {
+	.nexsyon-capability .img-block{
+		padding-top: 10px;
+	}
+	.nexsyon-capability .img-block img{
+		width: 188px;
+	}
+}
+
+@media screen and (max-width:1366px) {
+	.nexsyon-capability-overview .container-fluid{
+		padding: 6%;
+	}
+	.nexsyon-capability .img-block{
+		padding-top: 10px;
+	}
+	.nexsyon-capability .img-block img{
+		width: 158px;
+	}
+
+	.nexsyon-capability-overview-heading p{
+		font-size: 35px;
+	}
+	.nexsyon-capability .nexsyon-capability-heading{
+		font-size: 22px;
+	}
+	.nexsyon-capability .nexsyon-capability-para{
+		font-size: 15px;
+	
+	}
+}

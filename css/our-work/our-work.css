@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.nexsyon-projects-and-work h1{ 
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 8%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    letter-spacing: -0.065em;
+}
+.nexsyon-projects-and-work.partners h1{ 
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+.before::before{
+	display: inline-block;
+    content: "";
+    border: 3px solid #0C71A9;
+    width: 10px;
+	margin: 5px;
+	margin-right: 10px;
+}
+.the-detail-section.our-projects{
+    margin-left: -13%;
+}
+.nexsyon-partners{
+    margin: 0;
+    padding: 0;
+}
+.nexsyon-partners .container-fluid{
+    margin: 0;
+    padding: 0;
+    padding-left: 7%;
+    padding-right: 7%;
+    background: -webkit-linear-gradient(45deg, #040A22, #0c253d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #050b25, #0c253d);
+
+    background: linear-gradient(45.73deg, #040A22 3.39%, #0E2C4B 39.81%, #0A1D3B 99.61%);
+
+}
+.nexsyon-partners{
+    text-align: center;
+}
+.nexsyon-partners .row .col-lg-4 .valeo{
+    width: 37%;
+}
+.nexsyon-partners .row .col-lg-4 .continental{
+    width: 59%;
+}
+.nexsyon-partners .row .col-lg-4 .bosh{
+    width: 60%;
+}
+.nexsyon-work-project-partners-gap-top{
+    padding: 5%;
+}
+.nexsyon-work-project-partners-gap-bottom{
+    padding: 5%;
+}
+#work{
+    padding: 3%;
+    padding-left: 16%;
+}
+@media screen and (max-width:1366px) {
+    .nexsyon-projects-and-work h1{ 
+        font-size: 35px;
+    }
+    .nexsyon-partners .container-fluid{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .the-gap{
+        margin-bottom: 10%;
+    }
+    .image-about-nexsyon{
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nexsyon-projects-and-work{
+        margin-bottom: 70px;
+    }
+    .our-work-gap-in-tab{
+        padding: 5%;
+    }
+    .the-detail-section.our-projects .the-list li.bosch{
+        display: table;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    .nexsyon-partners .row .col-lg-4 .valeo{
+        width: 70%;
+    }
+    .nexsyon-partners .row .col-lg-4 .continental{
+        width: 89%;
+    }
+    .nexsyon-partners .row .col-lg-4 .bosh{
+        width: 89%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .nexsyon-partners .row .col-lg-4 .valeo{
+        width: 45%;
+        margin: 8%;
+    }
+    .nexsyon-partners .row .col-lg-4 .continental{
+        width: 59%;
+        margin: 8%;
+    }
+    .nexsyon-partners .row .col-lg-4 .bosh{
+        width: 59%;
+        margin: 8%;
+    }
+    .image-about-nexsyon{
+        padding: 3%;
+    }
+
+    .nexsyon-projects-and-work{
+        margin-bottom: 70px;
+        margin-top: 20px;
+    }
+
+    .the-detail-section.our-projects{
+        margin: 0;
+        padding: 0;
+    }
+
+}

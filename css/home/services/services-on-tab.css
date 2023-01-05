@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.nexsyon-services-overview.desktop{
+    display: block;
+  }
+  .nexsyon-services-overview.tab{
+    display: none;
+  }
+  .nexsyon-services-overview.tab{
+      margin: 0;
+      padding: 0;
+  }
+  .nexsyon-services-overview.tab .container-fluid{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .nexsyon-services-overview.tab .container-fluid .nexsyon-service-heading{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 111.18%;
+  }
+  .nexsyon-services-overview.tab .container-fluid .col-lg-12{
+      padding-left: 6%;
+      padding-right: 6%;
+      margin-top: 5%;
+  }
+  .nexsyon-services-overview.tab .container-fluid a{
+    text-decoration: none;
+    color: unset;
+  }
+  .nexsyon-services-overview.tab .container-fluid img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .nexsyon-services-overview.tab .container-fluid .short-para-about-nexsyon{
+      display: table;
+      margin: 0 auto;
+      margin-top: 12%;
+      margin-bottom: 15%;
+  }
+  
+  
+  @media screen and (max-width:1024px) {
+    .nexsyon-services-overview.desktop{
+      display: none;
+    }
+    .nexsyon-services-overview.tab{
+      display: block;
+    }
+    .gap-services-tab-bottom{
+        padding: 7%;
+    }
+  }  

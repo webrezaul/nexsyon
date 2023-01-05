@@ -1,0 +1,115 @@
+.contact-nexsyon-through{
+    margin: 0;
+    padding: 0;
+}
+.contact-nexsyon-through .container-fluid{
+    margin: 0;
+    padding: 0;
+    padding-left: 7%;
+    padding-right: 7%;
+
+}
+.contact-nexsyon-through .container-fluid .contacts{
+    height: fit-content;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.contact-nexsyon-through .container-fluid .contacts .the-icon{
+    margin-right: 8%;
+
+}
+.contact-nexsyon-through .container-fluid .contacts .the-icon img{
+    width: 30px;
+}
+.contact-nexsyon-through .container-fluid .contacts .the-detail p{
+    font-size: 16px;
+}
+@media screen and (max-width:1366px) {
+    .contact-nexsyon-through .container-fluid{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .contact-nexsyon-through .container-fluid .contacts .the-detail p{
+        font-size: 15px;
+    }
+}
+
+/* MAP */
+.our-location{
+    margin: 0;
+    padding: 0;
+}
+.our-location .container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.responsive-map{
+    margin: 0;
+    padding: 0;
+    margin-bottom: -5px;
+}
+.responsive-map iframe{
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width:768px) {
+    .contact-nexsyon-through .container-fluid{
+        padding-left: 5%;
+        padding-right: 2%;
+    }
+    .contact-nexsyon-through .container-fluid .contacts .the-detail p{
+        font-size: 15px;
+    }
+    .contact-nexsyon-through .container-fluid .contacts{
+        height: fit-content;
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #on-mob-again{
+        display: block;
+        margin-bottom: 100px;
+    }
+    #on-mob-again-hide{
+        display: none;
+    }
+
+    .contact-nexsyon-through .container-fluid .contacts .the-icon img{
+        width: 30px;
+        margin-bottom: 9%;
+    }
+    .contact-nexsyon-through .container-fluid .contacts .the-detail p{
+        text-align: left;
+        width: fit-content;
+        display: table;
+        margin: 0 auto;
+        padding-right: 20px;
+    }
+
+    .contact-nexsyon-through .container-fluid .contacts{
+        height: fit-content;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 8%;
+        
+    }
+
+    .contact-nexsyon-through .container-fluid{
+        background: #edf3f7a6;
+        padding-top: 12%;
+        padding-bottom: 16%;
+        
+    }
+
+}

@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+	font-size: 10px;
+	scroll-behavior: smooth;
+	width: 100%;
+	height: 100%;
+}
+
+/*------------------------------- SERVICES OVERVIEW  ------------------------------*/
+
+.nexsyon-services-overview{
+	margin: 0;
+	padding:0;
+
+}
+
+.each-service-text{
+	position: absolute;
+	width: 100%;
+	height: fit-content;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 11%;
+	padding-bottom: 11%;
+	z-index: 99;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-40%);
+}
+
+.each-service-text i{
+	position: absolute;
+	font-size: 20px;
+	padding: 3px;
+	padding-left: 10px;
+}	
+
+@media screen and (max-width:1366px) {
+	.each-service-text{
+		position: absolute;
+		width: 100%;
+		height: fit-content;
+		padding-left: 6%;
+		padding-right: 6%;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		z-index: 99;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%,-40%);
+	}
+}
+
+
+.each-service-text.of-service-2 .text-heading-about-nexsyon{
+	color: white;
+}
+.each-service-text.of-service-2 .text-heading-about-nexsyon::before{
+	border-color: #18FFFF;
+}
+
+.each-service-text.of-service-2 .text-heading-about-nexsyon span{
+	color: #18FFFF;
+}
+
+.each-service-text.of-service-2 .service-paragraph-1{
+	color: white;
+}
+
+
+.each-service-text.of-service-3 .service-paragraph-1{
+	color: white;
+}
+.each-service-text.of-service-3 .text-heading-about-nexsyon{
+	color: white;
+}
+.each-service-text.of-service-3 .text-heading-about-nexsyon::before{
+	border-color: #0C71A9;
+}
+
+.each-service-text.of-service-3 .text-heading-about-nexsyon span{
+	color: #0C71A9;
+}
+
+
+.each-service-text.of-service-4 .service-paragraph-1{
+	color: white;
+}
+.each-service-text.of-service-4 .text-heading-about-nexsyon{
+	color: white;
+}
+.each-service-text.of-service-4 .text-heading-about-nexsyon::before{
+	border-color: #9B9B9B;
+}
+
+.each-service-text.of-service-4 .text-heading-about-nexsyon span{
+	color: #9B9B9B;
+}
+
+
+
+.each-service-text.of-service-5 .text-heading-about-nexsyon{
+	color: white;
+}
+.each-service-text.of-service-5 .text-heading-about-nexsyon::before{
+	border-color: #18FFFF;
+}
+
+.each-service-text.of-service-5 .text-heading-about-nexsyon span{
+	color: #18FFFF;
+}
+
+.each-service-text.of-service-5 .service-paragraph-1{
+	color: white;
+}
+
+
+
+.nexsyon-services-overview .container-fluid{
+	margin: 0;
+	padding:0;
+}
+.nexsyon-services-overview .service-1{
+	margin: 0;
+	padding:0;
+	max-width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.nexsyon-services-overview .service-1 .main-background{
+	position: absolute;
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	background: #f1f8ffa6;
+}
+.nexsyon-services-overview .service-1 .layer-2{
+	position: absolute;
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+}
+.nexsyon-services-overview .service-1 .layer-3{
+	background-image: url("../../images/home/services/parrallex-effect/service-1/layer-3.png");
+	position: absolute;
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	z-index: 99999999999999999999999999999999;
+}
+
+.service-1-tablet {
+	background-image: url("../../images/home/services/parrallex-effect/service-1/layer-4.png");
+	height: 100vh;
+	width: 100%;
+	background-position: center right;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 9999999999999999999999999999;
+}
+
+
+
+
+
+.nexsyon-services-overview .service-2{
+	margin: 0;
+	padding:0;
+	max-width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.nexsyon-services-overview .service-2 .main-background{
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(45deg, #0c253d 5.26%, #0c253d 96.9%);
+
+	
+	/*background: rgb(29, 29, 27);*/
+	/*background: #FEE715FF;*/
+
+	background: linear-gradient(91.71deg, #015868 5.26%, #126F80 96.9%);
+
+	
+ 
+}
+.nexsyon-services-overview .service-2 .layer-2{
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background-image: url("../../images/home/services/parrallex-effect/service-2/layer-2.png");
+}
+.nexsyon-services-overview .service-2 .layer-3{
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.service-2-tablet {
+	background-image: url("../../images/home/services/parrallex-effect/service-2/layer-4.png");
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: center right;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 9999999999999999999999999999;
+}
+
+
+
+.nexsyon-services-overview .service-3{
+	margin: 0;
+	padding:0;
+	max-width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.nexsyon-services-overview .service-3 .main-background{
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(105.18deg, #040A22 0.28%, #15518E 41.18%, #0A1D3B 76.39%, #0A1D3B 99.69%);
+
+
+	background: #c31432;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #0A1D3B, #240b36,#240b36, #0a1f3b);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, rgb(2, 32, 66), rgb(0, 59, 104),rgb(0, 59, 104), rgb(2, 32, 66));
+
+}
+.nexsyon-services-overview .service-3 .layer-2{
+	background-image: url("../../images/home/services/parrallex-effect/service-3/layer-2.png");
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.nexsyon-services-overview .service-3 .layer-3{
+	
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.service-3-tablet {
+	background-image: url("../../images/home/services/parrallex-effect/service-3/layer-4.png");
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: center right;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 9999999999999999999999999999;
+}
+
+.service-3 .layer-4{
+	background:white;
+    background:rgba(255, 255, 255, 0.001);
+
+  
+
+	backdrop-filter: blur(0px);
+
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+
+	z-index: 999999999999999999999999999999999999;
+	
+}
+
+
+
+
+
+
+
+
+.nexsyon-services-overview .service-4{
+	margin: 0;
+	padding:0;
+	max-width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.nexsyon-services-overview .service-4 .main-background{
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #350b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.nexsyon-services-overview .service-4 .layer-2{
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	z-index: 999999999999999999999999999999999999999999999999999999999;
+}
+.blur-background{
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	
+}
+.nexsyon-services-overview .service-4 .layer-3{
+	background-image: url("../../images/home/services/parrallex-effect/service-4/layer-3.png");
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	z-index: 999999999999999999999999999999999999999;
+}
+
+.nexsyon-services-overview .service-4 .layer-4{
+	background:white;
+    background:rgba(226, 226, 226, 0.034);
+
+    filter:blur(3px);
+    -o-filter:blur(3px);
+    -ms-filter:blur(3px);
+    -moz-filter:blur(3px);
+    -webkit-filter:blur(3px);
+
+	backdrop-filter: blur(4px);
+
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+
+	z-index: 999999999999999999999999999999999999;
+	
+}
+.service-4-tablet {
+	background-image: url("../../images/home/services/parrallex-effect/service-4/layer-4.png");
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: center right;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 9999999999999999999999999999;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nexsyon-services-overview .service-5{
+	margin: 0;
+	padding:0;
+	max-width: 100%;
+	height: 100vh;
+	position: relative;
+	
+}
+.nexsyon-services-overview .service-5 .main-background{
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	
+	
+
+	background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #062525, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+	
+}
+.nexsyon-services-overview .service-5 .layer-2{
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.nexsyon-services-overview .service-5 .layer-3{
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	margin-top: 20px;
+	
+}
+.nexsyon-services-overview .service-5 .layer-4{
+	background:white;
+    background:rgba(13, 129, 120, 0.034);
+
+    filter:blur(4px);
+    -o-filter:blur(4px);
+    -ms-filter:blur(4px);
+    -moz-filter:blur(4px);
+    -webkit-filter:blur(4px);
+
+	backdrop-filter: blur(6px);
+
+	position: absolute;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+
+	z-index: 9;
+	
+}
+.service-5-tablet {
+	background-image: url("../../images/home/services/parrallex-effect/service-5/layer-4.png");
+	background-attachment: fixed;
+	height: 100vh;
+	background-position: center right;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 99999999999999999999999999999999;
+}
+
+
+
+@media screen and (max-width:1366px) {
+	.about-nexsyon .each-service-text{
+		padding-left: 6%;
+		padding-right: 6%;
+	}
+}
